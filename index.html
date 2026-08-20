@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>SweetCake</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet"
+          href="../css/global.css">
+    <link rel="stylesheet"
+          href="../css/home.css">
+</head>
+<body>
+  <div id="preloader">
+ <div class="loader-content">
+. <h2>Sweat Plug <span id="span">Treat</span></h2>
+  <div class="loading">
+   
+  </div>
+ </div>
+</div>
+   <header>
+  <div class="container">
+<!-- Navigation -->
+<nav class="navbar">
+   <a href="index.html" class="logo">
+ <div class="logo-text">
+  <h2>Sweet Plug <span>Treat</span></h2>
+ </div>
+</a>
+  <ul class="nav-links">
+   <button class="close-menu">x</button>
+ <li><a href="index.html">Home</a></li>
+ <li><a href="cakes.html">Cakes</a></li>
+ <li><a href="about.html">About</a></li>
+ <li><a href="contact.html">Contact</a></li>
+</ul>
+<div class="nav-actions">
+ <!-- Search -->
+     <button class="icon-btn search-btn" aria-label="Search">
+ <i class="fa-solid fa-magnifying-glass"></i>
+</button>
+      <div class="search-box">
+       <i class="fa-solid fa-magnifying-glass"></i>
+        <input
+            type="search"
+            placeholder="Search cakes..."
+            class="search-input"
+        >
+    </div>
+ <!-- Wishlist -->
+    <button class="icon-btn main-wishlist-btn" aria-label="Wishlist">
+       <i class="fa-regular fa-heart"></i>
+    </button>
+ <!-- Cart -->
+<a href="cart.html" class="cart-icon icon-btn">
+ <i class="fa-solid fa-cart-shopping"></i>
+ <span class="cart-count">0</span>
+</a>
+ <!-- Menu -->
+   <button class="menu-btn" id="menu-btn" aria-label="Open Menu"><i class="fa-solid fa-bars"></i>
+  </button>
+</div>
+</nav>
+</div>
+  </header>
+  <main>
+   <!-- Hero Section -->
+<section class="hero reveal">
+  <div class="container hero-container">
+ 
+ <div class="hero-content">
+  <span class="hero-tag">
+   <i class="fa-solid fa-cake-candles"></i>
+   Freshly Made • Premium Quality 
+  </span>
+  
+  <h1>
+   Your One-Stop Spot for Sweet & <span> Savoury Treats </span>
+  </h1>
+  
+  <p>
+    From cakes to Chickwiz, every bite is worth the smile.
+  </p>
+  
+  <div class="hero-buttons">
+   <a href="cakes.html" class="btn btn-primary">
+   <i class="fa-solid fa-cart-shopping"></i>
+    Order Now
+   </a>
+   
+   <a href="https://wa.me/2348100516283" target="_blank" class="btn btn-secondary">
+   <i class="fa-brands fa-whatsapp"></i>
+     WhatsApp
+   </a>
+  </div>
+  <div class="hero-stats">
+ <div class="stat">
+  <p><i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star"></i>
+  <i class="fa-solid fa-star-half-stroke"></i>
+   <span>4.9/5  </span></p>
+ </div>
+ <div class="stat">
+  <i class="fa-solid fa-users"></i>
+  <span>500+ Customers</span>
+ </div>
+ <div class="stat">
+  <i class="fa-solid fa-truck-fast"></i>
+  <span>Fast Delivery</span>
+ </div>
+</div>
+ </div>
+ 
+ <div class="hero-image">
+    <div class="circle circle-1"></div>
+  <div class="circle circle-2"></div>
+  <img src="../images/hero-img.png" alt="Delicious Cake">
+ </div>
+</div>
+</section>
+   <section class="categories reveal">
+ <div class="container">
+  <div class="section-title">
+   <span>Explore Our Menu</span>
+   <h2>Find Your Perfect Treat</h2>
+   <p>
+    Freshly baked cakes and pastries crafted for every special moment.
+   </p>
+  </div>
+  <div class="categories-grid">
+   <!-- Category 1 -->
+   <article class="category-card">
+    <img src="../images/birthday.png" alt="Birthday Cake" id="birthday">
+    <h3>Birthday Cakes</h3>
+    <p>Celebrate every birthday with a beautifully crafted cake.</p>
+    <a href="#">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+   </article>
+   <!-- Category 2 -->
+   <article class="category-card">
+    <img src="../images/wedding.png" alt="Wedding Cake">
+    <h3>Wedding Cakes</h3>
+    <p>Elegant cakes designed to make your big day unforgettable.</p>
+    <a href="#">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+   </article>
+   <!-- Category 3 -->
+   <article class="category-card">
+    <img src="../images/cupcake.png" alt="Cupcakes">
+    <h3>Cupcakes</h3>
+    <p>Delicious cupcakes perfect for every celebration.</p>
+    <a href="#">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+   </article>
+   <!-- Category 4 -->
+   <article class="category-card">
+    <img src="../images/pastry.png" alt="Pastries">
+    <h3>Pastries</h3>
+    <p>Fresh pastries baked daily with premium ingredients.</p>
+    <a href="#">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+   </article>
+  </div>
+ </div>
+</section>
+ <section class="best-sellers reveal">
+ <div class="container">
+  <div class="section-title">
+   <span>Customer Favorites</span>
+   <h2>Best Selling Cakes</h2>
+   <p>
+    Our most loved cakes, freshly baked and beautifully crafted for every occasion.
+   </p>
+  </div>
+  <div class="products-grid">
+   <!-- Product Card -->
+   <article class="product-card"
+   data-name="Chocolate Fudge Cake"
+data-price="15000"
+data-image="../images/best.png">
+    <span class="discount">-20%</span>
+    <button class="wishlist-btn">
+     <i class="fa-regular fa-heart"></i>
+    </button>
+    <img src="../images/best.png" alt="Chocolate Cake">
+    <div class="product-info">
+     <h3>Chocolate Fudge Cake</h3>
+     <div class="rating">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star-half-stroke"></i>
+      <span>(4.9)</span>
+     </div>
+     <div class="price">
+      <span class="new-price">₦15,000</span>
+      <span class="old-price">₦18,000</span>
+     </div>
+     <button class="addcart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+      Add to Cart
+     </button>
+    </div>
+   </article>
+   
+      <article class="product-card"
+       data-name="Cupcakes"
+data-price="10000"
+data-image="../images/gallery7.jpeg">
+    <span class="discount">-20%</span>
+    <button class="wishlist-btn">
+     <i class="fa-regular fa-heart"></i>
+    </button>
+    <img src="../images/gallery7.jpeg" alt="cupcakes">
+    <div class="product-info">
+     <h3>Cupcakes</h3>
+     <div class="rating">
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star-half-stroke"></i>
+      <span>(4.9)</span>
+     </div>
+     <div class="price">
+      <span class="new-price">₦10,000</span>
+      <span class="old-price">₦12,000</span>
+     </div>
+     <button class="addcart-btn">
+      <i class="fa-solid fa-cart-shopping"></i>
+      Add to Cart
+     </button>
+    </div>
+   </article>
+  </div>
+ </div>
+</section>
+<section class="special-offer reveal">
+ <div class="container offer-container">
+  <div class="offer-content">
+   <span class="offer-tag">
+    🎉 Limited Time Offer
+   </span>
+   <h2>
+    Enjoy <span>20% OFF</span> on Selected Treats
+   </h2>
+   <p>
+    Enjoy delicious cakes, doughnuts, parfaits, shawarma,
+    Chickwiz and more. Freshly prepared with premium
+    ingredients and delivered with care.
+   </p>
+   <div class="offer-features">
+    <div>
+     <i class="fa-solid fa-cake-candles"></i>
+     Cakes
+    </div>
+    <div>
+     <i class="fa-solid fa-burger"></i>
+     Chickwiz
+    </div>
+    <div>
+     <i class="fa-solid fa-ice-cream"></i>
+     Parfait
+    </div>
+    <div>
+     <i class="fa-solid fa-cookie"></i>
+     Doughnuts
+    </div>
+   </div>
+   <a href="#" class="offer-btn">
+    Order Now
+   </a>
+  </div>
+   <div class="offer-image">
+  <img src="../images/offer.png" alt="Special Offer">
+  </div>
+ </div>
+</section>
+<section class="why-us reveal">
+ <div class="container">
+  <div class="section-heading">
+   <span>Why Choose Us</span>
+   <h2>Made With Love, Delivered With Care</h2>
+   <p>
+    We create delicious treats using quality ingredients
+    and make every order special.
+   </p>
+  </div>
+  <div class="why-cards">
+   <div class="why-card">
+    <i class="fa-solid fa-truck"></i>
+    <h3>Fast Delivery</h3>
+    <p>
+     Fresh treats delivered quickly and safely.
+    </p>
+   </div>
+   <div class="why-card">
+    <i class="fa-solid fa-kitchen-set"></i>
+    <h3>Freshly Made</h3>
+    <p>
+     Prepared fresh with premium ingredients.
+    </p>
+   </div>
+   <div class="why-card">
+    <i class="fa-solid fa-star"></i>
+    <h3>Premium Quality</h3>
+    <p>
+     Quality you can taste in every bite.
+    </p>
+   </div>
+   <div class="why-card">
+    <i class="fa-solid fa-heart"></i>
+    <h3>Happy Customers</h3>
+    <p>
+     Creating memorable moments through treats.
+    </p>
+   </div>
+  </div>
+ </div>
+</section>
+<section class="testimonials reveal">
+ <div class="container">
+  <div class="section-heading">
+   <span>Testimonials</span>
+   <h2>What Our Customers Say</h2>
+   <p>
+    We love making every celebration special.
+    Here's what our happy customers have to say.
+   </p>
+  </div>
+  <div class="testimonial-slider">
+   <div class="testimonial-card active">
+    <div class="stars">
+     <i class="fa-solid fa-star"></i>
+     <i class="fa-solid fa-star"></i>
+     <i class="fa-solid fa-star"></i>
+     <i class="fa-solid fa-star"></i>
+     <i class="fa-solid fa-star"></i>
+    </div>
+    <p class="review">
+     "The cake was absolutely delicious! Delivery was fast,
+     and the design was exactly what I wanted."
+    </p>
+    <div class="customer">
+     <i class="fa-regular fa-user"></i>
+     <div>
+      <h4>Sarah O.</h4>
+      <span>Birthday Customer</span>
+     </div>
+    </div>
+   </div>
+    
+    <div class="testimonial-card">
+   <div class="stars">
+ <i class="fa-solid fa-star"></i>
+ <i class="fa-solid fa-star"></i>
+ <i class="fa-solid fa-star"></i>
+ <i class="fa-solid fa-star"></i>
+ <i class="fa-solid fa-star"></i>
+</div>
+
+<p class="review">
+ "I ordered parfaits and doughnuts for my office, and everyone loved them. Fresh, delicious, and beautifully packaged. I'll definitely be ordering again!"
+</p>
+
+<div class="customer">
+  <i class="fa-regular fa-user"></i>
+ 
+ <div>
+  <h4>David A.</h4>
+  <span>Regular Customer</span>
+ </div>
+</div>
+</div>
+    <div class="testimonial-card">
+<div class="stars">
+ <i class="fa-solid fa-star"></i>
+ <i class="fa-solid fa-star"></i>
+ <i class="fa-solid fa-star"></i>
+ <i class="fa-solid fa-star"></i>
+ <i class="fa-solid fa-star"></i>
+</div>
+
+<p class="review">
+ "The birthday cake exceeded my expectations! It looked stunning, tasted amazing, and arrived right on time. Sweet Plug Treat made the celebration unforgettable."
+</p>
+
+<div class="customer">
+ <i class="fa-regular fa-user"></i>
+ 
+ <div>
+  <h4>Grace M.</h4>
+  <span>Birthday Customer</span>
+ </div>
+</div>
+    </div>
+  </div>
+ </div>
+</section>
+<section class="gallery">
+ <div class="container">
+  <span class="section-tag">
+   <i class="fa-brands fa-instagram"></i> Follow Our Journey
+  </span>
+  <h2>Fresh From Our Kitchen</h2>
+  <p>
+   A glimpse of our freshly baked cakes, doughnuts, parfaits,
+   Chickwiz, shawarma and more.
+  </p>
+  <div class="gallery-grid">
+   <img src="../images/gallery1.jpeg" alt="">
+   <img src="../images/gallery2.jpeg" alt="">
+   <img src="../images/gallery3.jpeg" alt="">
+   <img src="../images/gallery4.jpeg" alt="">
+   <img src="../images/gallery5.jpeg" alt="">
+   <img src="../images/gallery6.jpeg" alt="">
+  </div>
+  <a href="#" class="gallery-btn">
+   View More
+  </a>
+ </div>
+</section>
+  </main>
+<footer class="footer reveal">
+ <div class="container">
+  <div class="footer-grid">
+   <!-- Brand -->
+   <div class="footer-about">
+    <h2>Sweet Plug Treat</h2>
+    <p>
+     Creating unforgettable moments with delicious cakes,
+     parfaits, doughnuts, shawarma, Chickwiz and many more.
+     Freshly made with love.
+    </p>
+   </div>
+   <!-- Quick Links -->
+   <div class="footer-links">
+    <h3>Quick Links</h3>
+    <ul>
+     <li><a href="#">Home</a></li>
+     <li><a href="#">Categories</a></li>
+     <li><a href="#">Best Sellers</a></li>
+     <li><a href="#">Gallery</a></li>
+     <li><a href="#">Contact</a></li>
+    </ul>
+   </div>
+   <!-- Contact -->
+   <div class="footer-contact">
+    <h3>Contact Us</h3>
+    <p>
+     <i class="fa-solid fa-location-dot"></i>
+     Osun, Nigeria
+    </p>
+    <p>
+     <i class="fa-solid fa-phone"></i>
+     +234 810 051 6283
+    </p>
+    <p>
+     <i class="fa-solid fa-envelope"></i>
+     monsuroholamide363@gmail.com
+    </p>
+   </div>
+   <!-- Social -->
+   <div class="footer-social">
+    <h3>Follow Us</h3>
+    <div class="social-icons">
+     <a href="#"><i class="fa-brands fa-instagram"></i></a>
+     <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+     <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+    </div>
+   </div>
+  </div>
+  <hr>
+  <div class="copyright">
+   <p>
+    © 2026 Sweet Plug Treat. All Rights Reserved.
+   </p>
+  </div>
+ </div>
+</footer>  
+<button id="backToTop">
+ <i class="fa-solid fa-arrow-up"></i>
+</button>
+  <script src="../js/app.js"></script>
+</body>
+</html>
